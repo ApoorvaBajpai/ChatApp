@@ -156,9 +156,9 @@ class MainActivity : ComponentActivity() {
                     bitmap?.let {
                         Image(
                             modifier = Modifier
-                                .size(40.dp)
-                                .padding(bottom = 2.dp)
-                                .clip(RoundedCornerShape(6.dp)),
+                                .size(42.dp)
+                                .padding(bottom = 3.dp)
+                                .clip(RoundedCornerShape(7.dp)),
                             contentDescription = "picked image",
                             contentScale = ContentScale.Crop,
                             bitmap = it.asImageBitmap()
