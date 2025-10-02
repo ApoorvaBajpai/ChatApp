@@ -131,7 +131,7 @@ class MainActivity : ComponentActivity() {
                 modifier = Modifier
                     .weight(1f)
                     .fillMaxWidth()
-                    .padding(horizontal = 8.dp),
+                    .padding(horizontal = 10.dp),
                 reverseLayout = true
             ) {
                 itemsIndexed(chatState.chatList) { index, chat ->
@@ -148,7 +148,7 @@ class MainActivity : ComponentActivity() {
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(bottom = 16.dp, start = 4.dp, end = 4.dp),
+                    .padding(bottom = 14.dp, start = 4.dp, end = 4.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
 
