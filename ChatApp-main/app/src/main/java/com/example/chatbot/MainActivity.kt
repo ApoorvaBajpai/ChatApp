@@ -89,7 +89,7 @@ class MainActivity : ComponentActivity() {
                                     modifier = Modifier
                                         .fillMaxWidth()
                                         .background(Color.Black)
-                                        .height(44.dp)
+                                        .height(43.dp)
                                         .padding(horizontal = 16.dp)
                                 ) {
                                     Text(
